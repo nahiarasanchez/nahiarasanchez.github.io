@@ -1,0 +1,7 @@
+#cromosomas {background-color: rgb(232, 253, 232)}
+#ciclo {background-color: rgb(223, 207, 223)}
+#cromosomas p {font-family: Georgia, 'Times New Roman', Times, serif ;}
+#ciclo p {font-family: 'Courier New', Courier, monospace}
+.centrar { display: block;
+          margin-right: auto;
+          margin-left: auto;}
