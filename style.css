@@ -1,5 +1,5 @@
-#presentacion {background-color: rgb(224, 191, 224)}
-.titulo2 {background-color: rgb(218, 174, 156)}
+#presentacion {background-color: #c8e9c4}
+.titulo2 {background-color: #99db95}
 ul {text-align: center;}
 
 #presentacion {font-family: 'Courier New', Courier, monospace}
@@ -13,3 +13,52 @@ ul {text-align: center;}
   margin-right: auto;
   width: 40%;
 }
+
+.boton {
+  background-color: #77b073;
+  color: white;
+  padding: thin;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.boton:hover {
+  color: black;
+  background-color: #a8eaa4 }
+
+.enlace {
+   background-color: #b6e194;
+  color: white;
+  padding: thin;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.enlace:hover {
+  color: black;
+  background-color: #6c9150;}
+
+ul a {
+  font-size: 16 px;
+  padding: 14px 40px;
+  border-radius: 8px;
+  background-color: #5ca257;
+  color: white;
+  padding: thin;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul a:hover {
+   font-size: 16 px;
+  padding: 14px 40px;
+  border-radius: 8px;
+  background-color: #bdeeba;
+  color: black;
+  padding: thin;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>selectores</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Tipos de selectores que entran en examen</h1>
+  <h2>Selector clase</h2>
+  <p>Este tipo de selector se emplea para crear una clase, selecciona las palabras en las que se emplea, y se les cambiará el estilo.  </p>
+  <p> Dentro de la pestaña de estilos, se escribe . seguido de la clase escrita:  <em> .clases {...} </em></p>
+  <p> <em>Ejemplo:</em> </p>
+  <p>Selector (class="") <strong class="clases">clase</strong></p>
+
+  <h2>Selector identificador</h2>
+  <p>Selecciona únicamente las palabras seleccionadas con el identificador correspondiente. Esto permite cambiar el estilo a dicha palabra</p>
+   <p> Dentro de la pestaña de estilos, se escribe # seguido del id escrito:  <em> #id="" {...} </em></p>
+  <p> <em>Ejemplo:</em> </p>
+  <p>Selector identificador (id="") <strong id="id">identificador</strong></p>
+
+  <h2>Todos los elementos</h2>
+  <p>Este selecciona todos los elementos de, por ejemplo, una lista. Y así cambiar el estilo a todos a la vez.</p>
+  <p> Dentro de la pestaña de estilos, se escribe * </p>
+  <p> <em>Ejemplo:</em></p>
+  <p> 
+    <ul> 
+      <li>clases</li>
+      <li>identificadores</li>
+      <li>todos los elementos</li>
+    </ul>
+  </p>
+
+  <h2>Varios elementos</h2>
+  <p>Este selector nos permite agrupar varios elementos, como un párrafo, una negrita o cursiva... y cambiarles el estilo al mismo tiempo.</p>
+  <p> Dentro de la pestaña de estilos, se escriben los elementos sin estar separados por comas o, si estan dentro de otro elemento (elemento > elemento):  <em> p em strong{...} / div > em {...} </em></p>
+  <p><em>Ejemplo:</em></p>
+  <div>Aqui hay <em>elementos.</em></div>
+
+  <h2>Elemento contenido dentro de otro elemento</h2>
+  <p>Sirve para seleccionar todos los elementos, de por ejemplo, una order list.</p>
+  <p>Dentro de la pestaña de estilos, se escriben ambos elementos sin estar separados por comas: <em>ol li</em></p>
+  <p><ol>
+    <li>Lista ordenada</li>
+    <li>Lista desordenada</li>
+    </ol></p>
+
+    <h2>Sobrevuelo</h2>
+    <p>Este selector hace que al pasar el <em>mouse</em> por encima de, por ejemplo, una negrita, esta palabra cambie.</p>
+    <p>Dentro de la pestaña de estilos se escribe, el elemento que desea que cambie y :holder: <em>strong:holder</em>  </p>
+    <p><em>Ejemplo:</em></p>
+    <p><strong>Al pasar el mouse por aquí cambiará.</strong></p>
+
+	<script src="script.js">
+	</script>
+</body>
+
+</html>

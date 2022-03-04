@@ -1,0 +1,24 @@
+table{
+  margin: 20px auto; superior 20px y lateral automático;
+  caption-side: top; posicion del titulo de la tabla;
+  border: 2px solid blue; borde exterior de la tabla;
+}
+td{
+  border: 2px solid black; borde de las celdas de la tabla;
+}
+th{
+  border: 3px dotted deeppink; borde de los encabezados de la table-layout;
+}
+#tabla-colapsada{
+  table-layout: auto; Ajusta automáticamente el tamaño al contenido de las celdas;
+  width: 100%; La tabla ajustará todo al ancho de la ventana;
+  border-collapse: collapse;
+  border: 4px solid green;
+}
+#tabla-separada{
+  table-layout: fixed; fuerza a que todas las columnas sean igual de anchas que la primera;
+  width: 50%; ancho de la tabla con respecto a la ventana;
+  border-collapse: separate;
+  border-spacing: 10px 20px;
+  border: 2px solid red;
+}
